@@ -19,7 +19,7 @@ pub fn build(b: *std.Build) void {
     // location when the user invokes the "install" step (the default step when
 
     const exe = b.addExecutable(.{
-        .name = "ziggified",
+        .name = "zig-mountain-peak-gen",
         .root_source_file = .{ .path = "src/main.zig" },
         .target = target,
         .optimize = optimize,
