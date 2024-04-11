@@ -6,4 +6,4 @@ this is one of my first zig projects. i implemented an idea from Josh's Channel 
 The idea is that you spawn pixels on the canvas, and they move around completely randomly until they get in contact with another pixel. This somehow generates some really unique mountain like patterns.
 The only catch is that it's SLOW.
 
-run `zig build run` to generate ~1800 bmp files inside `./images/`
+run `zig build run` to generate a bunch of bmp files inside `./images/`
